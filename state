@@ -1,0 +1,42 @@
+//ESTRUTURA BASICA DE UM PROJETO FLUTTER
+
+import 'package:flutter/material.dart';
+
+void main(){
+  
+  runApp(MaterialApp(
+  
+    debugShowCheckedModeBanner: false;
+    home: HomeStateful();
+  
+  ));
+  
+}
+
+class HomeStateful extends StatefulWidget(){
+  @override
+  _HomeStatefulState createState() => _HomeStatefulState();
+}
+
+class _HomeStatefulState extends Statte<HomeStateful>{
+  
+
+var _texto = "ALEX GAY";
+  
+  return Scaffold(
+  appBar: AppBar(
+  title: Text (Coach),
+  
+  backgroundcolor: Colors.indigo,
+  
+  ))
+
+}
+
+class _Home extends StatelessWidget {
+  @override
+  Widget build(BuildContext context){
+    var _titulo = "Coach";
+    
+  }
+}
